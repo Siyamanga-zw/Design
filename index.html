@@ -28,15 +28,28 @@
 
         <!-- Zubair & Laeeq -->
         <div class="records">
-            <h2>Record your results</h2>
-
+            <h2 class="h2">Record your <span class="span">results</span></h2>
+            <form class="form">
+                <div class="form-group">
+                    <label for="name">ENTER YOUR 16 PERSONALITY TEST TYPE</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group"> 
+                    <label for="email">ENTER YOUR EENERGRAM NUMBER</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="score">YOUR DISC PERSONALITY TYPE</label>
+                    <input type="text" id="score" name="score" required>
+                </div>
+                <div class="form-group">
+                    <label for="date"> YOUR BIG 5 PERSONALITY TYPE</label>
+                    <input type="text" id="date" name="date" required>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
         </div>
     </main>
-
-
-
-
-
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
