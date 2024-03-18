@@ -76,3 +76,324 @@
     font-weight: 500;
     text-align: center;
   }
+  @media (max-width:375px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
+  
+  .p { width: 50px;
+      height: 50px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 50px;
+          height: 50px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 10px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+  @media (max-width:500px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
+  
+  .p { width: 70px;
+      height: 70px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 70px;
+          height: 70px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 15px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+  @media (max-width:430px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
+  
+  .p { width: 70px;
+      height: 70px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 70px;
+          height: 70px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 14px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+
+  @media (max-width:350px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
+  
+  .p { width: 50px;
+      height: 50px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 50px;
+          height: 50px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 12px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
