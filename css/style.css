@@ -6,8 +6,9 @@
 }
 
 .form-group label {
-    margin-right: 5rem;
-    text-align: right;
+    /* margin-right: 5rem; */
+    /* text-align: center;  */
+    display: flex;
     width: 220px;
     color: white;
     text-transform: uppercase;
@@ -61,10 +62,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem;
+    height: 45rem;
 }
 
 input {
     width: 18rem;
 
 }
+
+@media screen and (max-width: 440px) {
+    .form-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .form-group label {
+      width: auto;
+      margin-bottom: 5px;
+    }
+  
+    .form-group input {
+      width: 100%;
+    }
+
+    .records{
+        height: 55rem;
+    }
+  }
+  
