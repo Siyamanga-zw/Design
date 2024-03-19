@@ -85,6 +85,10 @@ input {
       width: 100%;
     }
 
+    .btn{
+        margin-left: 7rem; 
+    }
+
     .records{
         height: 55rem;
     }
