@@ -1,0 +1,60 @@
+/* Mongi */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+.landing {
+    height: 100vh;
+    background-image: url('https://i.postimg.cc/XNtm8YPF/Rectangle-2.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    max-width: 94%;
+}
+
+.content {
+    margin-right: auto; 
+
+}
+
+.logo {
+    margin-left: auto; 
+  
+}
+
+
+
+
+.landing h4 {
+    margin: 0; 
+    color: #fffffff8;
+    font-size: 37px;
+    font-family: 'inter',;
+    font-weight: 400;
+    margin-top: 30%;
+ 
+}
+
+
+
+img {
+    margin-top: 4rem;    
+
+
+}
+
+
+
+
+
+
+
+
+/*Mongi ends */
