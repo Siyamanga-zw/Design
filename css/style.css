@@ -1,3 +1,5 @@
+
+/* steps */
 .h1{
     text-align: center;
 }
@@ -397,3 +399,358 @@
       text-align: center;
     }
   }
+
+/* Mongi */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+html, body {
+    height: 100%; 
+    overflow: hidden; 
+}
+
+.landing {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.container-fluid {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    max-width: 93%;
+   
+}
+
+
+.landing h4 {
+
+    color: #fffffff8;
+    font-size: 35px;
+    font-family: 'DM Sans', sans-serif; 
+    font-weight: 400;
+    margin-top: 19rem;
+}
+
+img {
+    max-width: 100%; 
+}
+
+
+.logo {
+    width: 500px; 
+    height: auto; 
+    display: block; 
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 1037px) and (max-width: 1067px) {
+    .landing h4 {
+        font-size: 27px;
+        margin-top: 39rem;
+    }
+
+
+    .logo {
+        width: 400px; 
+        height: auto; 
+        display: block; 
+        margin-bottom: 25rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1006px) and (max-width: 1036px) {
+    .landing h4 {
+        font-size: 25px;
+        margin-top: 35rem;
+    }
+
+
+    .logo {
+        width: 386px; 
+        height: auto; 
+        margin-top: 2rem;
+        margin-bottom: 24rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 905px) and (max-width: 1005px) {
+    .landing h4 {
+        font-size: 25px;
+        margin-top: 34rem;
+    }
+
+
+    .logo {
+        width: 340px; 
+        height: auto; 
+        margin-top: 2rem;
+        margin-bottom: 26rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 805px) and (max-width: 904px) {
+    .landing h4 {
+        font-size: 23px;
+        margin-top: 35rem;
+    }
+
+
+    .logo {
+        width: 300px; 
+        height: auto; 
+        margin-top: 2rem;
+        margin-bottom: 31rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 705px) and (max-width: 804px) {
+    .landing h4 {
+        font-size: 22px;
+        margin-top: 37rem;
+    }
+
+
+    .logo {
+        width: 260px; 
+        height: auto; 
+        margin-top: 1rem;
+        margin-bottom: 37rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 605px) and (max-width: 704px) {
+    .landing h4 {
+        font-size: 19px;
+        margin-top: 35rem;
+    }
+
+
+    .logo {
+        width: 240px; 
+        height: auto; 
+        margin-bottom: 39rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 555px) and (max-width: 604px) {
+    .landing h4 {
+        font-size: 16px;
+        margin-top: 37rem;
+    }
+
+
+    .logo {
+        width: 200px; 
+        height: auto; 
+        margin-bottom: 45rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 505px) and (max-width: 555px) {
+    .landing h4 {
+        font-size: 16px;
+        margin-top: 36rem;
+    }
+
+
+    .logo {
+        width: 196px; 
+        height: auto; 
+        margin-bottom: 45rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 455px) and (max-width: 504px) {
+    .landing h4 {
+        font-size: 13px;
+        margin-top: 34rem;
+    }
+
+
+    .logo {
+        width: 160px; 
+        height: auto; 
+        margin-bottom: 46rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 405px) and (max-width: 454px) {
+    .landing h4 {
+        font-size: 13px;
+        margin-top: 33rem;
+    }
+
+
+    .logo {
+        width: 160px; 
+        height: auto; 
+        margin-bottom: 46rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 351px) and (max-width: 404px) {
+    .landing h4 {
+        font-size: 11px;
+        margin-top: 42rem;
+        height: fit-content;
+        margin-bottom: 0;
+    }
+
+
+    .logo {
+        width: 110px; 
+        height: auto; 
+        margin-bottom: 58rem;
+        height: fit-content;
+      
+    }
+
+    .container-fluid {
+        position: relative;
+       
+        max-width: 98%;
+        height: fit-content;
+       
+    }
+
+}
+@media screen and (min-width: 300px) and (max-width: 350px) {
+    .landing h4 {
+        font-size: 10px;
+        margin-top: 40rem;
+        height: fit-content;
+        margin-bottom: 0;
+    }
+
+
+    .logo {
+        width: 110px; 
+        height: auto; 
+        margin-bottom: 58rem;
+        height: fit-content;
+      
+    }
+
+    .container-fluid {
+        position: relative;
+       
+        max-width: 98%;
+        height: fit-content;
+       
+    }
+
+}
+@media screen and (min-width: 251px) and (max-width: 299px) {
+    .landing h4 {
+        font-size: 7px;
+        margin-top: 43rem;
+        height: fit-content;
+       
+    }
+
+
+    .logo {
+        width: 85px; 
+        height: auto; 
+        margin-bottom: 63rem;
+        height: fit-content;
+        margin-top: 0;
+      
+    }
+
+
+
+}
+@media screen and (min-width: 200px) and (max-width: 250px) {
+    .landing h4 {
+        font-size: 4px;
+        margin-top: 43rem;
+        height: fit-content;
+       
+    }
+
+
+    .logo {
+        width: 50px; 
+        height: auto; 
+        margin-bottom: 65rem;
+        height: fit-content;
+        margin-top: 0;
+      
+    }
+
+
+
+}
+
+@media screen and (min-width: 90px) and (max-width: 199px) {
+    .landing h4 {
+        font-size: 4px;
+        margin-top: 43rem;
+        height: fit-content;
+       
+    }
+
+
+    .logo {
+        width: 50px; 
+        height: auto; 
+        margin-bottom: 68rem;
+        height: fit-content;
+        margin-top: 0;
+      
+    }
+
+
+
+}
+
+
+
+
+
+
+/*Mongi ends */
+
