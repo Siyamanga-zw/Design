@@ -1,3 +1,4 @@
+
 .form-group {
     display: flex;
     align-items: center;
@@ -93,4 +94,834 @@ input {
         height: 55rem;
     }
   }
+
+
+/* Keeno */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+.discovery-heading-text {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-inline: 30px;
+}
+
+
+.discovery-heading-text-test {
+    color: #9acdda;
+}
+
+.discovery-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.discovery-image {
+    height: 290px;
+    filter: grayscale(100%);
+}
+
+.discovery-image:hover {
+    filter: grayscale(0%);
+}
+
+.discovery-blurb {
+    width: min-content;
+    margin-inline: 30px;
+    margin-bottom: 80px;
+}
+
+.discovery-p-text {
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    width: 88%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.discovery-p-text-div {
+    display: flex;
+    justify-content: center;
+}
+
+@media (width < 350px) {
+    .discovery-blurb {
+        margin-inline: 0px;
+    }
+    .discovery-image {
+        height: 270px;
+    }
+}
+
+/* Keeno End */
+
+
+/* steps */
+.h1{
+    text-align: center;
+}
+.span{
+    color: rgb(77, 161, 161);
+}
+
+.p { width: 100px;
+    height: 100px;
+    background-color: rgb(172, 34, 34); /* Change color as needed */
+    border-radius: 50%; /* Makes the element a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px; /* Font size of the number */}
+
+
+.p2{
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgb(77, 161, 161);
+    border-radius: 50%; /* Makes the element a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px; /* Font size of the number */
+}
+
+.p3{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(172, 34, 34); /* Change color as needed */
+        border-radius: 50%; /* Makes the element a circle */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 24px; /* Font size of the number */
+}
+
+.p4{ 
+    width: 100px;
+    height: 100px;
+    background-color: rgb(77, 161, 161);
+    border-radius: 50%; /* Makes the element a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px; /* Font size of the number */
+}
+.container {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-around; /* Distribute space around items */
+  }
+
+
+  .p, .p2, .p3, .p4 {
+    margin: 10px; /* Add some space between elements */
+  }
+
+  .Steps {
+    text-align: center; 
+  }
+
+  .h1 {
+    margin-bottom: 10px; /* Add space below the heading */
+  }
+
+  .step-text {
+    font-size: 17px; 
+    font-weight: 500;
+    text-align: center;
+  }
+  @media (max-width:375px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
   
+  .p { width: 50px;
+      height: 50px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 50px;
+          height: 50px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 10px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+  @media (max-width:500px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
+  
+  .p { width: 70px;
+      height: 70px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 70px;
+          height: 70px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 15px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+  @media (max-width:430px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
+  
+  .p { width: 70px;
+      height: 70px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 70px;
+          height: 70px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 70px;
+      height: 70px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 14px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+
+  @media (max-width:350px) {
+    .h1{
+      text-align: center;
+  }
+  .span{
+      color: rgb(77, 161, 161);
+  }
+  
+  .p { width: 50px;
+      height: 50px;
+      background-color: rgb(172, 34, 34); /* Change color as needed */
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */}
+  
+  
+  .p2{
+      
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  
+  .p3{
+          width: 50px;
+          height: 50px;
+          background-color: rgb(172, 34, 34); /* Change color as needed */
+          border-radius: 50%; /* Makes the element a circle */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 24px; /* Font size of the number */
+  }
+  
+  .p4{ 
+      width: 50px;
+      height: 50px;
+      background-color: rgb(77, 161, 161);
+      border-radius: 50%; /* Makes the element a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px; /* Font size of the number */
+  }
+  .container {
+      display: flex;
+      flex-direction: row; /* Align items horizontally */
+      justify-content: space-around; /* Distribute space around items */
+    }
+  
+  
+    .p, .p2, .p3, .p4 {
+      margin: 10px; /* Add some space between elements */
+    }
+  
+    .Steps {
+      text-align: center; 
+    }
+  
+    .h1 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+  
+    .step-text {
+      font-size: 12px; 
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+
+/* Mongi */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+html, body {
+    height: 100%; 
+    overflow: hidden; 
+}
+
+.landing {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.container-fluid {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    max-width: 93%;
+   
+}
+
+
+.landing h4 {
+
+    color: #fffffff8;
+    font-size: 35px;
+    font-family: 'DM Sans', sans-serif; 
+    font-weight: 400;
+    margin-top: 19rem;
+}
+
+img {
+    max-width: 100%; 
+}
+
+
+.logo {
+    width: 500px; 
+    height: auto; 
+    display: block; 
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 1037px) and (max-width: 1067px) {
+    .landing h4 {
+        font-size: 27px;
+        margin-top: 39rem;
+    }
+
+
+    .logo {
+        width: 400px; 
+        height: auto; 
+        display: block; 
+        margin-bottom: 25rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1006px) and (max-width: 1036px) {
+    .landing h4 {
+        font-size: 25px;
+        margin-top: 35rem;
+    }
+
+
+    .logo {
+        width: 386px; 
+        height: auto; 
+        margin-top: 2rem;
+        margin-bottom: 24rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 905px) and (max-width: 1005px) {
+    .landing h4 {
+        font-size: 25px;
+        margin-top: 34rem;
+    }
+
+
+    .logo {
+        width: 340px; 
+        height: auto; 
+        margin-top: 2rem;
+        margin-bottom: 26rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 805px) and (max-width: 904px) {
+    .landing h4 {
+        font-size: 23px;
+        margin-top: 35rem;
+    }
+
+
+    .logo {
+        width: 300px; 
+        height: auto; 
+        margin-top: 2rem;
+        margin-bottom: 31rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 705px) and (max-width: 804px) {
+    .landing h4 {
+        font-size: 22px;
+        margin-top: 37rem;
+    }
+
+
+    .logo {
+        width: 260px; 
+        height: auto; 
+        margin-top: 1rem;
+        margin-bottom: 37rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 605px) and (max-width: 704px) {
+    .landing h4 {
+        font-size: 19px;
+        margin-top: 35rem;
+    }
+
+
+    .logo {
+        width: 240px; 
+        height: auto; 
+        margin-bottom: 39rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 555px) and (max-width: 604px) {
+    .landing h4 {
+        font-size: 16px;
+        margin-top: 37rem;
+    }
+
+
+    .logo {
+        width: 200px; 
+        height: auto; 
+        margin-bottom: 45rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 505px) and (max-width: 555px) {
+    .landing h4 {
+        font-size: 16px;
+        margin-top: 36rem;
+    }
+
+
+    .logo {
+        width: 196px; 
+        height: auto; 
+        margin-bottom: 45rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 455px) and (max-width: 504px) {
+    .landing h4 {
+        font-size: 13px;
+        margin-top: 34rem;
+    }
+
+
+    .logo {
+        width: 160px; 
+        height: auto; 
+        margin-bottom: 46rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 405px) and (max-width: 454px) {
+    .landing h4 {
+        font-size: 13px;
+        margin-top: 33rem;
+    }
+
+
+    .logo {
+        width: 160px; 
+        height: auto; 
+        margin-bottom: 46rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 351px) and (max-width: 404px) {
+    .landing h4 {
+        font-size: 11px;
+        margin-top: 42rem;
+        height: fit-content;
+        margin-bottom: 0;
+    }
+
+
+    .logo {
+        width: 110px; 
+        height: auto; 
+        margin-bottom: 58rem;
+        height: fit-content;
+      
+    }
+
+    .container-fluid {
+        position: relative;
+       
+        max-width: 98%;
+        height: fit-content;
+       
+    }
+
+}
+@media screen and (min-width: 300px) and (max-width: 350px) {
+    .landing h4 {
+        font-size: 10px;
+        margin-top: 40rem;
+        height: fit-content;
+        margin-bottom: 0;
+    }
+
+
+    .logo {
+        width: 110px; 
+        height: auto; 
+        margin-bottom: 58rem;
+        height: fit-content;
+      
+    }
+
+    .container-fluid {
+        position: relative;
+       
+        max-width: 98%;
+        height: fit-content;
+       
+    }
+
+}
+@media screen and (min-width: 251px) and (max-width: 299px) {
+    .landing h4 {
+        font-size: 7px;
+        margin-top: 43rem;
+        height: fit-content;
+       
+    }
+
+
+    .logo {
+        width: 85px; 
+        height: auto; 
+        margin-bottom: 63rem;
+        height: fit-content;
+        margin-top: 0;
+      
+    }
+
+
+
+}
+@media screen and (min-width: 200px) and (max-width: 250px) {
+    .landing h4 {
+        font-size: 4px;
+        margin-top: 43rem;
+        height: fit-content;
+       
+    }
+
+
+    .logo {
+        width: 50px; 
+        height: auto; 
+        margin-bottom: 65rem;
+        height: fit-content;
+        margin-top: 0;
+      
+    }
+
+
+
+}
+
+@media screen and (min-width: 90px) and (max-width: 199px) {
+    .landing h4 {
+        font-size: 4px;
+        margin-top: 43rem;
+        height: fit-content;
+       
+    }
+
+
+    .logo {
+        width: 50px; 
+        height: auto; 
+        margin-bottom: 68rem;
+        height: fit-content;
+        margin-top: 0;
+      
+    }
+
+
+
+}
+
+
+
+
+
+
+/*Mongi ends */
+
