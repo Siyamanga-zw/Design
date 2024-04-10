@@ -1,977 +1,155 @@
-
-.form-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
+*{
+    box-sizing: border-box;
 }
 
-.form-group label {
-    /* margin-right: 5rem; */
-    /* text-align: center;  */
-    display: flex;
-    width: 220px;
+*::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  
+    background-color: red;
+    padding: 4rem;
+    width: 50rem;
+    border-radius: 30px;
+    
+}
+.pic{
+    width: 300px;
+}
+.pic2{
+    width: 300px;
+}
+h2{
+    font-family: "Josefin Sans", sans-serif;
     color: white;
-    text-transform: uppercase;
 }
-
-.form-group input {
-    flex: 1;
-    padding: 8px;
+h5{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-left: 9px;
 }
-
-.btn {
-    margin-top: 3rem;
+p{
+    margin-top: 10px;
+    padding-left: 16px;
+}
+.blue-text{
+    color: #77A7B4;
+}
+.red-text{
+    color: #BE0000;
+    font-weight: 400;
+}
+.firstblocks{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 14rem;
+    flex-direction: row;
+ 
+}
+.secondblocks{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.accordion{
     background-color: white;
-    color: black;
-}
-
-.btn:hover {
-   border-color: #ffffff;
-   color: white;
-}
-.form {
-    max-width: 500px;
-    margin: 0 auto;
-    margin-top: 2rem;
-}
-
-.h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 7px;
-    color: white;
-    text-transform: uppercase;
-    margin-top: 2rem;
-}
-
-.span {
-    color:  #9ACDDA;
-    
-}
-
-.records {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    background-image: url('https://i.ibb.co/3y8dvBc/Form-image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45rem;
-}
-
-input {
-    width: 18rem;
-
-}
-
-@media screen and (max-width: 440px) {
-    .form-group {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .form-group label {
-      width: auto;
-      margin-bottom: 5px;
-    }
-  
-    .form-group input {
-      width: 100%;
-    }
-
-    .btn{
-        margin-left: 7rem; 
-    }
-
-    .records{
-        height: 55rem;
-    }
-  }
-
-
-/* Keeno */
-
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-
-
-.discovery-heading-text {
-    margin-bottom: 80px;
-    margin-top: 0px;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    padding-inline: 30px;
-    color: white;
-    padding-top: 80px;
-}
-
-
-.discovery-heading-text-test {
-    color: #9acdda;
-}
-
-.starting-point-section {
-    background-image: url("https://i.postimg.cc/g2JGKKrW/image.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.discovery-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.discovery-image {
-    height: 290px;
-    margin-top: 20px;
-    border-radius: 100%;
-}
-
-.discovery-blurb {
-    margin-inline: 50px;
-    width: 40%;
-    margin-bottom: 80px;
-    text-align: center;
-    border: 8px solid #77A7B4;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.3);
-}
-
-.discovery-p-text {
-    color: black;
-    text-decoration: none;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
-    width: 66%;
-    margin-top: auto;
-}
-
-.start-test-link {
-    text-decoration: none;
-    color: white;
-    background-color: #BE0000;
-    border-radius: 10px;
-    font-size: 30px;
-    font-weight: 400;
+    border-radius: 5px;
     padding: 10px;
-    padding-inline: 40px;
+    width: 40rem;
+}
+.accordion .accordion-item{
+    border-bottom: 1px solid #e5e5e5;
 }
 
-.start-link {
-    height: 100px;
+.accordion .accordion-item button[aria-expanded='true']{
+    border-bottom: 1px solid #0284cf;
 }
 
-.discovery-p-text-div {
-    display: flex;
-    justify-content: center;
-}
-
-@media (width < 350px) {
-    .discovery-blurb {
-        margin-inline: 0px;
-    }
-    .discovery-image {
-        height: 270px;
-    }
-}
-
-@media (width < 800px) {
-    .discovery-image {
-        height: auto;
-        width: 80%;
-    }
-}
-
-@media (width < 650px) {
-    .discovery-p-text {
-        font-size: 30px;
-    }
-    .discovery-blurb {
-        width: 60%;
-    }
-}
-
-@media (width < 450px) {
-    .discovery-p-text {
-        font-size: 28px;
-    }
-    .discovery-blurb {
-        width: 80%;
-    }
-    .discovery-heading-text {
-        font-size: 45px;
-    }
-}
-
-/* Keeno End */
-
-
-/* steps */
-.h1{
-    text-align: center;
-}
-.span{
-    color: rgb(77, 161, 161);
-}
-
-.p { width: 100px;
-    height: 100px;
-    background-color: rgb(172, 34, 34); /* Change color as needed */
-    border-radius: 50%; /* Makes the element a circle */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 24px; /* Font size of the number */}
-
-
-.p2{
-    
-    width: 100px;
-    height: 100px;
-    background-color: rgb(77, 161, 161);
-    border-radius: 50%; /* Makes the element a circle */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 24px; /* Font size of the number */
-}
-
-.p3{
-        width: 100px;
-        height: 100px;
-        background-color: rgb(172, 34, 34); /* Change color as needed */
-        border-radius: 50%; /* Makes the element a circle */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        font-size: 24px; /* Font size of the number */
-}
-
-.p4{ 
-    width: 100px;
-    height: 100px;
-    background-color: rgb(77, 161, 161);
-    border-radius: 50%; /* Makes the element a circle */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 24px; /* Font size of the number */
-}
-.container {
-    display: flex;
-    flex-direction: row; /* Align items horizontally */
-    justify-content: space-around; /* Distribute space around items */
-  }
-
-
-  .p, .p2, .p3, .p4 {
-    margin: 10px; /* Add some space between elements */
-  }
-
-  .Steps {
-    text-align: center; 
-  }
-
-  .h1 {
-    margin-bottom: 10px; /* Add space below the heading */
-  }
-
-  .step-text {
-    font-size: 17px; 
-    font-weight: 500;
-    text-align: center;
-  }
-  @media (max-width:375px) {
-    .h1{
-      text-align: center;
-  }
-  .span{
-      color: rgb(77, 161, 161);
-  }
-  
-  .p { width: 50px;
-      height: 50px;
-      background-color: rgb(172, 34, 34); /* Change color as needed */
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */}
-  
-  
-  .p2{
-      
-      width: 50px;
-      height: 50px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  
-  .p3{
-          width: 50px;
-          height: 50px;
-          background-color: rgb(172, 34, 34); /* Change color as needed */
-          border-radius: 50%; /* Makes the element a circle */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: white;
-          font-size: 24px; /* Font size of the number */
-  }
-  
-  .p4{ 
-      width: 50px;
-      height: 50px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  .container {
-      display: flex;
-      flex-direction: row; /* Align items horizontally */
-      justify-content: space-around; /* Distribute space around items */
-    }
-  
-  
-    .p, .p2, .p3, .p4 {
-      margin: 10px; /* Add some space between elements */
-    }
-  
-    .Steps {
-      text-align: center; 
-    }
-  
-    .h1 {
-      margin-bottom: 10px; /* Add space below the heading */
-    }
-  
-    .step-text {
-      font-size: 10px; 
-      font-weight: 500;
-      text-align: center;
-    }
-  }
-  @media (max-width:500px) {
-    .h1{
-      text-align: center;
-  }
-  .span{
-      color: rgb(77, 161, 161);
-  }
-  
-  .p { width: 70px;
-      height: 70px;
-      background-color: rgb(172, 34, 34); /* Change color as needed */
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */}
-  
-  
-  .p2{
-      
-      width: 70px;
-      height: 70px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  
-  .p3{
-          width: 70px;
-          height: 70px;
-          background-color: rgb(172, 34, 34); /* Change color as needed */
-          border-radius: 50%; /* Makes the element a circle */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: white;
-          font-size: 24px; /* Font size of the number */
-  }
-  
-  .p4{ 
-      width: 70px;
-      height: 70px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  .container {
-      display: flex;
-      flex-direction: row; /* Align items horizontally */
-      justify-content: space-around; /* Distribute space around items */
-    }
-  
-  
-    .p, .p2, .p3, .p4 {
-      margin: 10px; /* Add some space between elements */
-    }
-  
-    .Steps {
-      text-align: center; 
-    }
-  
-    .h1 {
-      margin-bottom: 10px; /* Add space below the heading */
-    }
-  
-    .step-text {
-      font-size: 15px; 
-      font-weight: 500;
-      text-align: center;
-    }
-  }
-  @media (max-width:430px) {
-    .h1{
-      text-align: center;
-  }
-  .span{
-      color: rgb(77, 161, 161);
-  }
-  
-  .p { width: 70px;
-      height: 70px;
-      background-color: rgb(172, 34, 34); /* Change color as needed */
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */}
-  
-  
-  .p2{
-      
-      width: 70px;
-      height: 70px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  
-  .p3{
-          width: 70px;
-          height: 70px;
-          background-color: rgb(172, 34, 34); /* Change color as needed */
-          border-radius: 50%; /* Makes the element a circle */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: white;
-          font-size: 24px; /* Font size of the number */
-  }
-  
-  .p4{ 
-      width: 70px;
-      height: 70px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  .container {
-      display: flex;
-      flex-direction: row; /* Align items horizontally */
-      justify-content: space-around; /* Distribute space around items */
-    }
-  
-  
-    .p, .p2, .p3, .p4 {
-      margin: 10px; /* Add some space between elements */
-    }
-  
-    .Steps {
-      text-align: center; 
-    }
-  
-    .h1 {
-      margin-bottom: 10px; /* Add space below the heading */
-    }
-  
-    .step-text {
-      font-size: 14px; 
-      font-weight: 500;
-      text-align: center;
-    }
-  }
-
-  @media (max-width:350px) {
-    .h1{
-      text-align: center;
-  }
-  .span{
-      color: rgb(77, 161, 161);
-  }
-  
-  .p { width: 50px;
-      height: 50px;
-      background-color: rgb(172, 34, 34); /* Change color as needed */
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */}
-  
-  
-  .p2{
-      
-      width: 50px;
-      height: 50px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  
-  .p3{
-          width: 50px;
-          height: 50px;
-          background-color: rgb(172, 34, 34); /* Change color as needed */
-          border-radius: 50%; /* Makes the element a circle */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: white;
-          font-size: 24px; /* Font size of the number */
-  }
-  
-  .p4{ 
-      width: 50px;
-      height: 50px;
-      background-color: rgb(77, 161, 161);
-      border-radius: 50%; /* Makes the element a circle */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px; /* Font size of the number */
-  }
-  .container {
-      display: flex;
-      flex-direction: row; /* Align items horizontally */
-      justify-content: space-around; /* Distribute space around items */
-    }
-  
-  
-    .p, .p2, .p3, .p4 {
-      margin: 10px; /* Add some space between elements */
-    }
-  
-    .Steps {
-      text-align: center; 
-    }
-  
-    .h1 {
-      margin-bottom: 10px; /* Add space below the heading */
-    }
-  
-    .step-text {
-      font-size: 12px; 
-      font-weight: 500;
-      text-align: center;
-    }
-  }
-
-/* Mongi */
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
-html, body {
-    height: 100%; 
-    overflow: hidden; 
-}
-
-.landing {
+.accordion button{
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  
-}
-
-.background-container {
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
+    text-align: left;
     width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.background-image {
-    width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-}
-
-.container-fluid {
-    position: relative;
-    display: flex;
-    flex-direction: column; 
-    max-width: 93%;
-   
-}
-
-
-.landing h4 {
-
-    color: #fffffff8;
-    font-size: 35px;
-    font-family: 'DM Sans', sans-serif; 
+    padding: 1em 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
     font-weight: 400;
-    margin-top: 19rem;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 12px;
+    outline: none;
+    
 }
 
-img {
-    max-width: 100%; 
+.accordion button .icon{
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    margin-right: 12px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+    
 }
 
 
-.logo {
-    width: 500px; 
-    height: auto; 
-    display: block; 
-    margin-top: 1rem;
-}
-
-
-@media screen and (min-width: 1037px) and (max-width: 1067px) {
-    .landing h4 {
-        font-size: 27px;
-        margin-top: 39rem;
-    }
-
-
-    .logo {
-        width: 400px; 
-        height: auto; 
-        display: block; 
-        margin-bottom: 25rem;
-        margin-top: 3rem;
-    }
-}
-
-@media screen and (min-width: 1006px) and (max-width: 1036px) {
-    .landing h4 {
-        font-size: 25px;
-        margin-top: 35rem;
-    }
-
-
-    .logo {
-        width: 386px; 
-        height: auto; 
-        margin-top: 2rem;
-        margin-bottom: 24rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 905px) and (max-width: 1005px) {
-    .landing h4 {
-        font-size: 25px;
-        margin-top: 34rem;
-    }
-
-
-    .logo {
-        width: 340px; 
-        height: auto; 
-        margin-top: 2rem;
-        margin-bottom: 26rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 805px) and (max-width: 904px) {
-    .landing h4 {
-        font-size: 23px;
-        margin-top: 35rem;
-    }
-
-
-    .logo {
-        width: 300px; 
-        height: auto; 
-        margin-top: 2rem;
-        margin-bottom: 31rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 705px) and (max-width: 804px) {
-    .landing h4 {
-        font-size: 22px;
-        margin-top: 37rem;
-    }
-
-
-    .logo {
-        width: 260px; 
-        height: auto; 
-        margin-top: 1rem;
-        margin-bottom: 37rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 605px) and (max-width: 704px) {
-    .landing h4 {
-        font-size: 19px;
-        margin-top: 35rem;
-    }
-
-
-    .logo {
-        width: 240px; 
-        height: auto; 
-        margin-bottom: 39rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 555px) and (max-width: 604px) {
-    .landing h4 {
-        font-size: 16px;
-        margin-top: 37rem;
-    }
-
-
-    .logo {
-        width: 200px; 
-        height: auto; 
-        margin-bottom: 45rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 505px) and (max-width: 555px) {
-    .landing h4 {
-        font-size: 16px;
-        margin-top: 36rem;
-    }
-
-
-    .logo {
-        width: 196px; 
-        height: auto; 
-        margin-bottom: 45rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 455px) and (max-width: 504px) {
-    .landing h4 {
-        font-size: 13px;
-        margin-top: 34rem;
-    }
-
-
-    .logo {
-        width: 160px; 
-        height: auto; 
-        margin-bottom: 46rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 405px) and (max-width: 454px) {
-    .landing h4 {
-        font-size: 13px;
-        margin-top: 33rem;
-    }
-
-
-    .logo {
-        width: 160px; 
-        height: auto; 
-        margin-bottom: 46rem;
-      
-    }
-
-}
-
-@media screen and (min-width: 351px) and (max-width: 404px) {
-    .landing h4 {
-        font-size: 11px;
-        margin-top: 42rem;
-        height: fit-content;
-        margin-bottom: 0;
-    }
-
-
-    .logo {
-        width: 110px; 
-        height: auto; 
-        margin-bottom: 58rem;
-        height: fit-content;
-      
-    }
-
-    .container-fluid {
-        position: relative;
-       
-        max-width: 98%;
-        height: fit-content;
-       
-    }
-
-}
-@media screen and (min-width: 300px) and (max-width: 350px) {
-    .landing h4 {
-        font-size: 10px;
-        margin-top: 40rem;
-        height: fit-content;
-        margin-bottom: 0;
-    }
-
-
-    .logo {
-        width: 110px; 
-        height: auto; 
-        margin-bottom: 58rem;
-        height: fit-content;
-      
-    }
-
-    .container-fluid {
-        position: relative;
-       
-        max-width: 98%;
-        height: fit-content;
-       
-    }
-
-}
-@media screen and (min-width: 251px) and (max-width: 299px) {
-    .landing h4 {
-        font-size: 7px;
-        margin-top: 43rem;
-        height: fit-content;
-       
-    }
-
-
-    .logo {
-        width: 85px; 
-        height: auto; 
-        margin-bottom: 63rem;
-        height: fit-content;
-        margin-top: 0;
-      
-    }
-
-
-
-}
-@media screen and (min-width: 200px) and (max-width: 250px) {
-    .landing h4 {
-        font-size: 4px;
-        margin-top: 43rem;
-        height: fit-content;
-       
-    }
-
-
-    .logo {
-        width: 50px; 
-        height: auto; 
-        margin-bottom: 65rem;
-        height: fit-content;
-        margin-top: 0;
-      
-    }
-
-
-
-}
-
-@media screen and (min-width: 90px) and (max-width: 199px) {
-    .landing h4 {
-        font-size: 4px;
-        margin-top: 43rem;
-        height: fit-content;
-       
-    }
-
-
-    .logo {
-        width: 50px; 
-        height: auto; 
-        margin-bottom: 68rem;
-        height: fit-content;
-        margin-top: 0;
-      
-    }
-
-
+.accordion button .icon::before{
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background-color: black;
 
 }
 
 
+.accordion button .icon::after{
+     display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background-color: black;
+}
 
+.accordion button[aria-expanded='true']{
+    color: #BE0000;
+}
 
-
-
-/*Mongi ends */
+.accordion button[aria-expanded='true'] .icon::after{
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content{
+    opacity: 1;
+    max-height: 20em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+.accordion .accordion-content{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+.accordion .accordion-content p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin:  2em 0;
+}
+.accordion-content{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
 
