@@ -94,9 +94,12 @@
     margin-bottom: 0.2rem;
 }
 
-.red {
-    color: red;
-    margin-right: 0.2rem;
+.redtext {
+    color: red ;
+}
+
+.black {
+    color: black;
 }
 
 .arrow {
@@ -104,3 +107,20 @@ margin-left: auto;
 padding-right: 1rem;
 
 }
+
+select {
+    width: 22rem;
+    margin-bottom: 0.2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    height: 1.8rem;
+    border-radius: 5px;
+
+}
+
+.option {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: red;
+}
+
